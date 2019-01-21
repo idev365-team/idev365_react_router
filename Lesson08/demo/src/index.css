@@ -1,0 +1,26 @@
+.menuContainer{
+    float:left;
+    width:100px;
+    background-color:rgba(36, 36, 36,0.8);
+    color:white;
+    padding:20px;
+    margin-right:10px;
+}
+.menu{
+    margin:0;
+    padding:0;
+    margin-bottom: 10px;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color:rgb(162, 241, 255);
+}
+.main{
+    background-color: blanchedalmond;
+    min-height: 100px;
+    overflow: hidden;
+    padding:20px;
+}
