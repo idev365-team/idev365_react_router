@@ -1,0 +1,51 @@
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    flex:1;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.page{
+    position: absolute;
+    top:60px;
+    left:0;
+    right:0;
+    bottom:0;
+    color:white;
+    padding:30px;
+    font-size:30px;
+    text-align: center;
+}
+.pageRed{
+    background-color: hsl(10, 90%, 50%);
+}
+.pageGreen{
+    background-color: hsl(120, 100%, 40%);
+}
+.pageBlue{
+    background-color: rgb(33, 150, 243);
+}
+.pagePink{
+    background-color:rgb(240, 98, 146);
+}
+
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+  
+.fade-enter.fade-enter-active {
+opacity: 1;
+transition: opacity 250ms ease-in;
+}
